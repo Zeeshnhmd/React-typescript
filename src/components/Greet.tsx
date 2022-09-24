@@ -27,7 +27,7 @@ export const Greet = ({ title, messageCount, isLoggedIn }: GreetProps) => {
 	const personList = [
 		{ id: 1, first: "Zeeshan", last: "Ahmad" },
 		{ id: 2, first: "Jhon", last: "Doe" },
-		{ id: 3, first: "Jhan", last: "Doeeeee" },
+		{ id: 3, first: "Jhan", last: "Doe" },
 	];
 
 	return (
