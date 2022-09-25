@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Button } from "./components/events/Button";
-import { Input } from "./components/events/Input";
+import { Button } from "./components/eventsProps/Button";
+import { Input } from "./components/eventsProps/Input";
 // import { Greet } from "./components/Greet";
 // import { Heading } from "./components/Heading";
 // import { Oscar } from "./components/Oscar";
