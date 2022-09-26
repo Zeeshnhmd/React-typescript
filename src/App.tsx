@@ -12,7 +12,7 @@ function App() {
 	const [text, setText] = useState("");
 	//function for Button component
 	const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-		console.log("Clicked", event);
+		setText("");
 	};
 
 	const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
