@@ -7,6 +7,7 @@ import { Greet } from "./components/Greet";
 // import { Heading } from "./components/Heading";
 // import { Oscar } from "./components/Oscar";
 // import { Status } from "./components/Status";
+import { UseStateHook } from "./components/Hooks/UseState/UseStateHook";
 
 function App() {
 	const [text, setText] = useState("");
@@ -31,7 +32,7 @@ function App() {
 					margin: " 0 auto",
 				}}
 			>
-				<Greet />
+				{/* <Greet /> */}
 				{/* <Greet title="Zeeshan" messageCount={10} isLoggedIn={true} />
 			<Status status="Success" />
 			<Heading>
@@ -41,9 +42,12 @@ function App() {
     <Greet /> */}
 
 				{/* Events */}
-				<Button handleClick={handleClick} />
+
+				{/* <Button handleClick={handleClick} />
 				<Input value={text} handleInput={handleInput} />
-				<h1>{text}</h1>
+				<h1>{text}</h1> */}
+
+				<UseStateHook />
 			</Container>
 		</div>
 	);
