@@ -3,7 +3,7 @@ import "./App.css";
 import { Button } from "./components/eventsProps/Button";
 import { Input } from "./components/eventsProps/Input";
 import { Container } from "./components/styleProps/Container";
-// import { Greet } from "./components/Greet";
+import { Greet } from "./components/Greet";
 // import { Heading } from "./components/Heading";
 // import { Oscar } from "./components/Oscar";
 // import { Status } from "./components/Status";
@@ -31,8 +31,8 @@ function App() {
 					margin: " 0 auto",
 				}}
 			>
+				<Greet />
 				{/* <Greet title="Zeeshan" messageCount={10} isLoggedIn={true} />
-			<Greet />
 			<Status status="Success" />
 			<Heading>
       <h1>PlaceHolder text</h1>

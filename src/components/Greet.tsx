@@ -32,9 +32,9 @@ export const Greet = ({
 
 	// for person list component
 	const personList = [
-		{ id: 1, first: "Zeeshan", last: "Ahmad" },
-		{ id: 2, first: "Jhon", last: "Doe" },
-		{ id: 3, first: "Jhan", last: "Doe" },
+		{ first: "Zeeshan", last: "Ahmad" },
+		{ first: "Jhon", last: "Doe" },
+		{ first: "Jhan", last: "Doe" },
 	];
 
 	return (
@@ -44,7 +44,7 @@ export const Greet = ({
 					? `Welcome ${title} you have ${messageCount} unread messages`
 					: "Welcome guest"}
 			</h1>
-			<Person name={name} />
+			<Person first={name.first} last={name.last} />
 			<PersonList names={personList} />
 		</>
 	);
